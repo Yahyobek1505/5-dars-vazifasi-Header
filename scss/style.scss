@@ -1,0 +1,33 @@
+@import "./header";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body{
+  height: 100%;
+}
+body{
+  font-family: "Poppins", sans-serif;
+}
+a{
+  text-decoration: none;
+}
+button{
+  border: none;
+  cursor: pointer;
+}
+input{
+  outline: none;
+  border: none;
+}
+ul{
+  list-style: none;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

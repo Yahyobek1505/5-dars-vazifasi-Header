@@ -1,0 +1,161 @@
+header {
+  width: 100%;
+  max-width: 1380px;
+  height: 100%;
+  margin: 0 auto;
+  background: url(../img/bge.png) no-repeat right;
+}
+header .container {
+  width: 100%;
+  width: 1110px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+header .container .menu {
+  gap: 50px;
+}
+
+nav {
+  gap: 430px;
+  padding-top: 30px;
+  margin-bottom: 121px;
+}
+nav .navigation__menu {
+  gap: 20px;
+}
+nav .navigation__menu li a {
+  color: #1e255e;
+  font-size: 15px;
+  font-weight: 500;
+}
+nav .navigation__menu li a:hover {
+  color: #0061fe;
+  border-bottom: 1px solid #0061fe;
+}
+
+.nav__btn {
+  width: 130px;
+  height: 42px;
+  border-radius: 100px;
+  background: inherit;
+  color: #0061fe;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  border: 1px solid #0061fe;
+}
+
+.nav__btn:hover {
+  background-color: #1e255e;
+  color: #fff;
+}
+
+.logo {
+  cursor: pointer;
+  gap: 10px;
+}
+.logo .logo__title {
+  color: #1e255e;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.main__title h1 {
+  width: 540px;
+  color: #1e255e;
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 70px;
+}
+.main__title h1 span {
+  color: #0061fe;
+  font-size: 56px;
+  font-weight: 700;
+}
+.main__title p {
+  width: 403.945px;
+  color: rgba(30, 37, 94, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.input__email {
+  width: 420px;
+  height: 60px;
+  border-radius: 100px;
+  background: #d6deee;
+  text-indent: 30px;
+  color: #1e255e;
+  font-size: 16px;
+}
+
+.input__email::placeholder {
+  color: rgba(30, 37, 94, 0.7);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+form {
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  height: 48px;
+  border-radius: 100px;
+  background: #0061fe;
+  cursor: pointer;
+  left: 305px;
+  top: 6px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 13px 18px;
+}
+
+.btn:hover {
+  background-color: #1e255e;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
